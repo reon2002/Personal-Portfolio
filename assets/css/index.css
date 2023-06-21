@@ -1,0 +1,122 @@
+
+body{
+    background-color: black;;
+}
+
+.list-custom{
+    color:rgb(135, 135, 135)
+}
+.list-custom:hover{
+    color:rgb(84, 84, 84)
+}
+body{
+    background-color:black;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+}
+.active{
+    color:black;
+}
+#rb{
+    color:black;
+    /* margin-left:120px; */
+    /* margin:auto 120px; */
+}
+.home-img img{
+    width: 55%;
+    height: 55%;
+}
+.home-text span{
+    color:rgb(237, 202, 3);
+    font-weight:700;
+}
+
+.home-text a{
+    color:black;
+    font-weight:500
+}
+.interests img{
+    height: 30%;
+    width: 30%;
+}
+.service-item{
+    /* box-shadow: 1px 1px 10px rgb(237, 202, 3); */
+    transition: transform 0.3s;
+}
+.service-item:hover{
+    box-shadow: 1px 1px 20px rgb(237, 202, 3);
+    transform:scale(1.1)    
+}
+.service-item h3{
+    color:rgb(237, 202, 3);
+}
+.uiux img{
+    height:30%;
+    width:30%;
+}
+.contact-item img{
+    height:8%;
+    width:8%;
+}
+.contact-item img{
+    height:7%;
+    width:7%;
+}
+
+.submitbutton{
+    color:black;
+}
+#quote{
+    color:rgb(143, 143, 143);
+    font-style: italic;
+}
+.social{
+    height:3%;
+    width:3%;
+}
+.summary h3{
+    font-weight:500;
+}
+
+.arrow{
+    height:auto;
+    width:7%
+}
+
+.edu-bullet{
+    width:35%;
+    height:auto;
+}
+
+
+
+#interests{
+    min-height: 600px;
+}
+#education{
+    min-height: 600px;
+}
+
+.navigation{
+    list-style-type: none;
+}
+
+.navbar-nav .nav-link.active{
+    color:black;
+}
+
+.personalfield{
+    margin-top:50px;
+}
+
+.summary{
+    margin-top:50px;
+}
+
+nav button{
+    background-color:black;
+}
+
+.school{
+    font-weight:lighter;
+}

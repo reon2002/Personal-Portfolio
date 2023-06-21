@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Reon Augustine</title>
+    <link rel="icon" href="assets/img/icon2.png" type="image/icon">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/boxicons.css">
+    <link rel="stylesheet" href="assets/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.0.9/css/boxicons.min.css">
+
+    
+    <style>
+        #education{
+            background-image:url("assets/img/backgrounds/educationbg.png");
+        }
+        #contact{
+            background-image:url("assets/img/backgrounds/contactbg.png");
+        }
+        #home{
+            background-image: url("assets/img/backgrounds/homebg.png");
+        }
+        #skills{
+            background-image: url("assets/img/backgrounds/skillsbg.png");
+        }
+    </style>
+        
+</head>
+<body>
+
+    <!-- navbar start -->
+    <nav class="navbar navbar-dark bg-warning fixed-top content navbar-expand-md" id="navbar-example2">
+        <div class="container-lg">
+          <a id="rb" class="navbar-brand fw-bold fs-3" href="#">RB.</a>
+          <button class="navbar-toggler btn btn-dark navbutt px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon menu"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link list-custom active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link list-custom" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link list-custom" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link list-custom" href="#interests">Interests</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link list-custom" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link list-custom" href="Reon CV.pdf" target="_blank">Resume</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- navbar end -->
+
+
+
+    <div class="section-scrollspy scrollspy-example" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true">
+    <!-- home section start -->
+        <section class="home pt-2 mt-5 content" id="home" data-aos="zoom-in" data-aos-delay="100">
+            <div class="container-lg" >
+                <div class="row min-vh-100 align-items-center align-content-center">
+                    <div class="col-md-6 mt-5 mt-md-0">
+                        <div class="home-img text-center">
+                            <img src="assets/img/profile.png">
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-5 mt-md-0">
+                        <div class="home-text">
+                            <h2 class="fs-3">Hi! I'm<br><span class="text-uppercase fs-1">Reon Augustine</span></h2>
+                            <p>I'm an undergraduate B.Tech engineering student with a passion for coding, web development, and design. I enjoy creating websites and applications, and I have a good command of various programming languages. Alongside coding, I dabble in design, blending aesthetics with functionality. I possess strong team and communication skills, which allow me to collaborate effectively. As a person, I value integrity and empathy, and I'm constantly learning and growing. </p>
+                            <a class="btn btn-warning px-3 mt-3" id="downloadButton" >Download CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- home section end -->
+
+
+
+        <!-- about section start -->
+        <section class="about py-5 content" id="about">
+            <div class="container-lg py-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="section-title text-center">
+                            <h2 class="fw-bold">About</h2>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="col-md-6 mt-5 mt-md-0 summaryfield" data-aos="flip-up" data-aos-delay="200">
+                        <div class="summary">
+                            <h3 class="fs-4">Summary</h3>
+                            <p>I am a committed, structured, and systematic individual with <br>a dynamic approach and strong interpersonal skills. As an excellent team player, I am eager to learn and develop new abilities, actively seeking opportunities for growth. With a determined and decisive nature, I identify and seize opportunities for personal and professional advancement. My active and dynamic work style enables me to efficiently achieve objectives while embracing challenges as avenues for further development.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 personalfield" data-aos="flip-up" data-aos-delay="200">
+                        <h3 class="fs-4 ms-4">Personal Details</h3>
+                        <div class="row biodata ms-3">
+                            <div class="col-md-7 d-flex align-items-center">
+                                <img class="arrow text-start" src="assets/img/darrow2.png">
+                                <p class="text-start fs-6 mt-2 ms-1" ><span class="fw-bold">Birthday</span> : 28th August 2002</p>
+                            </div>
+                            <div class="col-md-5 d-flex align-items-center">
+                                <img class="arrow text-start" src="assets/img/darrow2.png">
+                                <p class="text-start fs-6 mt-2 ms-1"><span class="fw-bold">Age</span> : 20</p>
+                            </div>
+                        </div>
+                        <div class="row biodata ms-3">
+                            <div class="col-md-7 d-flex align-items-center">
+                                <img class="arrow text-start" src="assets/img/darrow2.png">
+                                <p class="text-start fs-6 mt-2 ms-1"><span class="fw-bold">Degree</span> : Pursuing B.Tech</p>
+                            </div>
+                            <div class="col-md-5 d-flex align-items-center">
+                                <img class="arrow text-start" src="assets/img/darrow2.png">
+                                <p class="text-start fs-6 mt-2 ms-1"><span class="fw-bold">City</span> : Thrissur</p>
+                            </div>
+                        </div>
+                        <div class="row biodata ms-3">
+                            <div class="col-md-7 d-flex align-items-center">
+                                <img class="arrow text-start" src="assets/img/darrow2.png">
+                                <p class="text-start fs-6 mt-2 ms-1"><span class="fw-bold">Branch</span> : Information Technology</p>
+                            </div>
+                            <div class="col-md-5 d-flex align-items-center">
+                                <img class="arrow text-start" src="assets/img/darrow2.png">
+                                <p class="text-start fs-6 mt-2 ms-1"><span class="fw-bold">Phone</span> : +91 7034651015</p>
+                            </div>
+                        </div>
+                        <div class="row biodata ms-3">
+                            <div class="col-md-7 d-flex align-items-center">
+                                <img class="arrow text-start" src="assets/img/darrow2.png">
+                                <p class="text-start fs-6 mt-2 ms-1"><span class="fw-bold">Email</span> : augustinereon@gmail.com</p>
+                            </div>
+                            <div class="col-md-5 d-flex align-items-center">
+                                <img class="arrow text-start" src="assets/img/darrow2.png">
+                                <p class="text-start fs-6 mt-2 ms-1"><span class="fw-bold">College</span> : GEC Barton Hill</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about section end -->
+
+
+
+        <!-- skills section start -->
+        <section class="skills py-5 content" id="skills">
+            <div class="container-lg py-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="section-title text-center">
+                            <h2 class="fw-bold">Skills</h2>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    
+                    <div class="col-md-6 mt-5 mt-md-0" data-aos="fade-right" data-aos-delay="200">
+                        <div class="skill-item mx-4">
+                            <div class="row">
+                                <h3 class="col-lg-6 fs-6 mt-4 text-start">HTML</h3>
+                                <h3 class="col-lg-6 fs-6 mt-4 text-end">95%</h3>
+                            </div>
+                            <div class="progress" role="progressbar" aria-label="Example 10px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+                                <div class="progress-bar bg-warning" style="width: 95%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item mx-4">
+                            <div class="row">
+                                <h3 class="col-lg-6 fs-6 mt-4 text-start">CSS</h3>
+                                <h3 class="col-lg-6 fs-6 mt-4 text-end">95%</h3>
+                            </div>
+                            <div class="progress" role="progressbar" aria-label="Example 10px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+                                <div class="progress-bar bg-warning" style="width: 95%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item mx-4">
+                            <div class="row">
+                                <h3 class="col-lg-6 fs-6 mt-4 text-start">Javascript</h3>
+                                <h3 class="col-lg-6 fs-6 mt-4 text-end">85%</h3>
+                            </div>
+                            <div class="progress" role="progressbar" aria-label="Example 10px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+                                <div class="progress-bar bg-warning" style="width: 85%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item mx-4">
+                            <div class="row">
+                                <h3 class="col-lg-6 fs-6 mt-4 text-start">Bootstrap</h3>
+                                <h3 class="col-lg-6 fs-6 mt-4 text-end">90%</h3>
+                            </div>
+                            <div class="progress" role="progressbar" aria-label="Example 10px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+                                <div class="progress-bar bg-warning" style="width: 90%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item mx-4">
+                            <div class="row">
+                                <h3 class="col-lg-6 fs-6 mt-4 text-start">MySQL</h3>
+                                <h3 class="col-lg-6 fs-6 mt-4 text-end">90%</h3>
+                            </div>
+                            <div class="progress" role="progressbar" aria-label="Example 10px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+                                <div class="progress-bar bg-warning" style="width: 90%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item mx-4">
+                            <div class="row">
+                                <h3 class="col-lg-6 fs-6 mt-4 text-start">Team Worker</h3>
+                                <h3 class="col-lg-6 fs-6 mt-4 text-end">95%</h3>
+                            </div>
+                            <div class="progress" role="progressbar" aria-label="Example 10px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+                                <div class="progress-bar bg-warning" style="width: 95%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item mx-4">
+                            <div class="row">
+                                <h3 class="col-lg-6 fs-6 mt-4 text-start">Communication</h3>
+                                <h3 class="col-lg-6 fs-6 mt-4 text-end">90%</h3>
+                            </div>
+                            <div class="progress" role="progressbar" aria-label="Example 10px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+                                <div class="progress-bar bg-warning" style="width: 90%"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6" data-aos="fade-left" data-aos-delay="200">
+                        <div class="skill-item mx-4">
+                            <div class="row">
+                                <h3 class="col-lg-6 fs-6 mt-4 text-start">Java</h3>
+                                <h3 class="col-lg-6 fs-6 mt-4 text-end">85%</h3>
+                            </div>
+                            <div class="progress" role="progressbar" aria-label="Example 10px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+                                <div class="progress-bar bg-warning" style="width: 85%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item mx-4">
+                            <div class="row">
+                                <h3 class="col-lg-6 fs-6 mt-4 text-start">Python</h3>
+                                <h3 class="col-lg-6 fs-6 mt-4 text-end">90%</h3>
+                            </div>
+                            <div class="progress" role="progressbar" aria-label="Example 10px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+                                <div class="progress-bar bg-warning" style="width: 90%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item mx-4">
+                            <div class="row">
+                                <h3 class="col-lg-6 fs-6 mt-4 text-start">C</h3>
+                                <h3 class="col-lg-6 fs-6 mt-4 text-end">80%</h3>
+                            </div>
+                            <div class="progress" role="progressbar" aria-label="Example 10px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+                                <div class="progress-bar bg-warning" style="width: 80%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item mx-4">
+                            <div class="row">
+                                <h3 class="col-lg-6 fs-6 mt-4 text-start">Django</h3>
+                                <h3 class="col-lg-6 fs-6 mt-4 text-end">90%</h3>
+                            </div>
+                            <div class="progress" role="progressbar" aria-label="Example 10px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+                                <div class="progress-bar bg-warning" style="width: 90%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item mx-4">
+                            <div class="row">
+                                <h3 class="col-lg-6 fs-6 mt-4 text-start">Figma</h3>
+                                <h3 class="col-lg-6 fs-6 mt-4 text-end">70%</h3>
+                            </div>
+                            <div class="progress" role="progressbar" aria-label="Example 10px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+                                <div class="progress-bar bg-warning" style="width: 70%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item mx-4">
+                            <div class="row">
+                                <h3 class="col-lg-6 fs-6 mt-4 text-start">Photoshop</h3>
+                                <h3 class="col-lg-6 fs-6 mt-4 text-end">80%</h3>
+                            </div>
+                            <div class="progress" role="progressbar" aria-label="Example 10px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+                                <div class="progress-bar bg-warning" style="width: 80%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item mx-4">
+                            <div class="row">
+                                <h3 class="col-lg-6 fs-6 mt-4 text-start">Problem Solving</h3>
+                                <h3 class="col-lg-6 fs-6 mt-4 text-end">90%</h3>
+                            </div>
+                            <div class="progress" role="progressbar" aria-label="Example 10px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+                                <div class="progress-bar bg-warning" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- skills section end -->
+
+
+
+        <!-- interests section start -->
+        <section class="interests py-4 content" id="interests">
+            <div class="container-lg py-5" data-aos="fade-up">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="section-title text-center">
+                            <h2 class="fw-bold">Interests</h2>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="row text-center">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="service-item uiux pb-4 px-4 pt-2 rounded mt-4" data-aos="fade-right">
+                                <div class="icon my-3 md-0 mt-4">
+                                    <img src="assets/img/interests/uiux.png">
+                                </div>
+                                <h3 class="text-uppercase mt-0 fw-bold">UI/UX Design</h3>
+                                <p>My expertise in UI/UX design allows me to craft visually stunning and intuitive user interfaces that enhance the overall user experience.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="service-item p-4 rounded mt-4" data-aos="fade-up" data-aos-delay="300">
+                                <div class="icon my-3 md-0 ">
+                                    <img src="assets/img/interests/code.png">
+                                </div>
+                                <h3 class="text-uppercase mt-0 fw-bold">Web Development</h3>
+                                <p>I create dynamic and visually appealing websites with seamless functionality using a diverse set of programming languages, frameworks, and tools.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6 col-lg-4">
+                            <div class="service-item p-4 rounded mt-4" data-aos="fade-left">
+                                <div class="icon my-3 md-0 ">
+                                    <img src="assets/img/interests/photoshop.png">
+                                </div>
+                                <h3 class="text-uppercase mt-0 fw-bold">Photoshop</h3>
+                                <p>I have a strong command of Photoshop, utilizing its powerful tools to bring creativity and precision to my designs.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- interests section end -->
+
+
+
+        <!-- edcuation section start -->
+        <section class="education py-5 content" id="education">
+            <div class="container-lg py-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="section-title text-center">
+                            <h2 class="fw-bold">Education</h2>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="row text-center">
+                        <div class="col-md-6 col-lg-6">
+                            <div class="edu-item uiux pb-6 px-4 pt-2 rounded mt-4">
+                                <div class="icon my-3 md-0 ">
+                                    <img src="assets/img/education/medal.png">
+                                </div>
+                                <p class="fs-7">2020 - Present</p>
+                                <h3 class=" mt-0 fw-bold fs-4">Bachelor of Technology in<br> Information Technology</h3>
+                                <p class="school fs-7">Government Engineering College, Barton Hill</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <div class="edu-item uiux pb-6 px-4 pt-2 rounded mt-4">
+                                <div class="icon my-3 md-0 ">
+                                    <img src="assets/img/education/medal.png">
+                                </div>
+                                <p class="fs-7">2018 - 2020</p>
+                                <h3 class=" mt-0 fw-bold fs-4">Higher Secondary<br>Education</h3>
+                                <p class="school fs-7">Seventh Day Adventist HSS</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- edcuation section end -->           
+
+
+
+        <!-- contact section start -->
+        <section class="contact py-4 bg-light text-dark content" id="contact">
+            <div class="container-lg py-4">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="section-title text-center" data-aos="fade-up">
+                            <h2 class="fw-bold mb-5">Contact</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row py-4">
+                    <div class="col-md-5" data-aos="fade-right">
+                        <div class="contact-item d-flex mail-area ms-5 mt-4">
+                            <img src="assets/img/contact/mail.png" class="mail-image">
+                            <div class="col-md-6 ms-3">
+                                <h3 class="fs-5">Email</h3>
+                                <p class="text-muted">augustinereon@gmail.com</p>
+                            </div>    
+                        </div>
+                        <div class="contact-item d-flex mail-area ms-5 mt-4">
+                            <img src="assets/img/contact/phone.png" class="phone-image">
+                            <div class="col-md-6 ms-3">
+                                <h3 class="fs-5">Phone</h3>
+                                <p class="text-muted">+91 7034651015</p>
+                            </div>    
+                        </div>
+                        <div class="contact-item d-flex mail-area ms-5 mt-4">
+                            <img src="assets/img/contact/location.png" class="location-image">
+                            <div class="col-md-6 ms-3">
+                                <h3 class="fs-5">Location</h3>
+                                <p class="text-muted">Chalakkal House<br>P.O Mulayam<br>Valakkavu, Thrissur</p>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="col-md-7" data-aos="fade-left">
+                        <div class="contact-form">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    First Name<br>
+                                    <input type="text" class="form-control form-control-lg mt-2 fs-6 border-0 shadow-sm">
+                                </div>
+                                <div class="col-lg-6">
+                                    Last Name<br>
+                                    <input type="text" class="form-control form-control-lg fs-6 mt-2 border-0 shadow-sm">
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-lg-12">
+                                    Email<br>
+                                    <input type="email" class="form-control form-control-lg fs-6 mt-2 border-0 shadow-sm">
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-lg-12">
+                                    Message
+                                    <textarea rows="5" class="form-control form-control-lg fs-6 mt-2 border-0 shadow-sm"></textarea>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-lg-12">
+                                    <button type="submit" class="btn submitbutton btn-warning px-3">Send Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact section end -->
+
+
+
+        <!-- footer section start -->
+        <footer class="footer content">
+            <div class="container-lg">
+                <div class="row text-center mt-5">
+                    <h1 class="fs-2 mt-3">Reon Augustine</h1>
+                    <p class="quote fs-7" id="quote">Believe you can, and you're halfway there.</p>
+                </div>
+                <div class="social-media text-center mt-2 mx-auto mb-5">
+                    <a href="https://github.com/reon2002"><img class="social" src="assets/img/social/github.png"></a>
+                    <a href="https://www.linkedin.com/in/reon-augustine-babu-20a056232/"><img class="social" src="assets/img/social/linkedin.png"></a>
+                    <a href="https://www.instagram.com/re.on_babu/"><img class="social" src="assets/img/social/instagram.png"></a>
+                    <a href="https://leetcode.com/augustinereon/"><img class="social" src="assets/img/social/leetcode.png"></a>
+                </div>
+                <div class="row text-center">
+                    <p class="fs-7">Copyright &copy;2023 by <span class="text-warning">Reon Augustine</span></p>
+                </div>   
+            </div>
+        </footer>
+        <!-- footer section end -->
+    </div>
+    
+    <script src="assets/js/scrollspy.js"></script>
+    <script src="assets/js/download.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        //To toggle the navbar into button for mobile-view
+        function toggleNavbar() {
+        var navbarCollapse = document.getElementById("navbar-collapse");
+        navbarCollapse.classList.toggle("show");
+        }
+    </script>
+</body>
+</html>
